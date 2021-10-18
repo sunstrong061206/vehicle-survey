@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fibikky.vehicle.web.main.mappers.EquipmentMapper">
+    <select id="listByPage" resultType="com.fibikky.vehicle.web.main.dto.EquipmentList">
+        select *
+        from
+        equipment
+        left join detection_line dl on dl.detection_line_id = equipment.detection_line_id
+        left join detection_station ds on ds.detection_station_id = equipment.detection_station_id
+        left join monitor m on m.monitor_id = equipment.monitor_id
+        <where>
+            <if test="query.detectionStationId!=null and query.detectionStationId!=''">
+                and equipment.detection_station_id = #{query.detectionStationId}
+            </if>
+            <if test="query.detectionLineId!=null and query.detectionLineId!=''">
+                and equipment.detection_line_id = #{query.detectionLineId}
+            </if>
+            <if test="query.monitorId!=null and query.monitorId!=''">
+                and equipment.monitor_id = #{query.monitorId}
+            </if>
+            <if test="query.detectionStationName!=null and query.detectionStationName!=''">
+                and ds.detection_station_name = #{query.detectionStationName}
+            </if>
+            <if test="query.detectionLineName!=null and query.detectionLineName!=''">
+                and dl.detection_line_name = #{query.detectionLineName}
+            </if>
+            <if test="query.monitorName!=null and query.monitorName!=''">
+                and m.monitor_name = #{query.monitorName}
+
+            </if>
+        </where>
+    </select>
+</mapper>

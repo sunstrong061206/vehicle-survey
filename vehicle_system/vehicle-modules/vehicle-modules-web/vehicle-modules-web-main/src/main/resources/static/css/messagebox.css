@@ -1,0 +1,14 @@
+.message-box {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    height: 38px;
+    transition: 0.6s;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.1rem;
+    z-index: 99999;
+}

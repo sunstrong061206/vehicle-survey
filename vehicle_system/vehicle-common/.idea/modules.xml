@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common.iml" filepath="$PROJECT_DIR$/vehicle-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common-core/vehicle-common-core.iml" filepath="$PROJECT_DIR$/vehicle-common-core/vehicle-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common-io/vehicle-common-io.iml" filepath="$PROJECT_DIR$/vehicle-common-io/vehicle-common-io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common-network/vehicle-common-network.iml" filepath="$PROJECT_DIR$/vehicle-common-network/vehicle-common-network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common-redis/vehicle-common-redis.iml" filepath="$PROJECT_DIR$/vehicle-common-redis/vehicle-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vehicle-common-web/vehicle-common-web.iml" filepath="$PROJECT_DIR$/vehicle-common-web/vehicle-common-web.iml" />
+    </modules>
+  </component>
+</project>

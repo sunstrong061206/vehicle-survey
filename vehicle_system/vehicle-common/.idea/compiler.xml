@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vehicle-common-web" />
+        <module name="vehicle-common-core" />
+        <module name="vehicle-common-redis" />
+        <module name="vehicle-common-network" />
+        <module name="vehicle-common-io" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="vehicle-common" target="16" />
+      <module name="vehicle-common-core" target="16" />
+      <module name="vehicle-common-io" target="16" />
+      <module name="vehicle-common-network" target="16" />
+      <module name="vehicle-common-redis" target="16" />
+      <module name="vehicle-common-web" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/protobuf.js"></script>
+    <script src="js/client.js"></script>
+</head>
+<body>
+    <script>
+        function arrayBufferToBase64(buffer) {
+            var binary = '';
+            var bytes = new Uint8Array(buffer);
+            var len = bytes.byteLength;
+            for (var i = 0; i < len; i++) {
+                binary += String.fromCharCode(bytes[i]);
+            }
+            return window.btoa(binary);
+        }
+        let client=new Client("127.0.0.1:9001");
+        client.addHook("detected_img_frame",(data)=>{
+            console.log(data)
+            let detected_img_frame=client.protoDecode("Detected_Img_Frame",data)
+            let img=detected_img_frame.img
+            img=arrayBufferToBase64(img)
+            $("img").attr("src","data:image/jpeg;base64,"+img);
+        })
+        client.init().then(()=>{
+            client.send(client.TypeMessage("register_as_consumer"))
+        })
+    </script>
+<img src="">
+</body>
+</html>

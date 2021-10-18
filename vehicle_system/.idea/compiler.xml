@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vehicle-modules-web-main" />
+        <module name="vehicle-modules-example-websocket" />
+        <module name="vehicle-common-core" />
+        <module name="vehicle-common-redis" />
+        <module name="vehicle-modules-example-model-server" />
+        <module name="vehicle-common-io" />
+        <module name="vehicle-modules-detect-server-inspect" />
+        <module name="vehicle-survey" />
+        <module name="vehicle-modules-web-api" />
+        <module name="vehicle-modules-detect-server-smoke" />
+        <module name="vehicle-modules-example-consumer" />
+        <module name="vehicle-modules-detect-server-staff" />
+        <module name="vehicle-common-web" />
+        <module name="vehicle-modules-example-provider" />
+        <module name="vehicle-common-network" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
