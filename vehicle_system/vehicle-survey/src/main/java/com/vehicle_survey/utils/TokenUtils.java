@@ -7,6 +7,7 @@ import java.util.Map;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.TokenExpiredException;
+import com.auth0.jwt.interfaces.Claim;
 import com.auth0.jwt.interfaces.DecodedJWT;
 import com.auth0.jwt.interfaces.JWTVerifier;
 
@@ -87,18 +88,16 @@ public class TokenUtils {
             no = jwt.getClaim("no").asString();
             System.out.println(no);
             return no;
-        } catch (TokenExpiredException e) {
-            e.getMessage();
-        } catch (Exception e) {
+        }catch (Exception e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    /*
+
     public static void main(String[] args) {
         System.out.println(createToken("2000303308"));
-        System.out.println(verifyToken("eyJUeXBlIjoiSnd0IiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJubyI6IjIwMDAzMDMzMDgiLCJleHAiOjE2MzE1NzEwMTF9.m6Hxwt_yC5vQCmX3AbG_OszBgWWJsX3jFO3kzFyLup0"));
+        System.out.println(verifyToken("eyJUeXBlIjoiSnd0IiwidHlwIjoiSldUIiwiYWxnIjoiSFMyNTYifQ.eyJubyI6IjIwMDAzMDMzMDgiLCJleHAiOjE2MzI4NTQzMzR9.0RRpFZcVvGgu9AqDeIQDiwMLDCx3ePbEo_VTkS5auBE"));
     }
-     */
+
 }

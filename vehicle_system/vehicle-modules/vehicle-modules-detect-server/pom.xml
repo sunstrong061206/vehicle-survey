@@ -13,8 +13,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>vehicle-modules-detect-server-inspect</module>
-        <module>vehicle-modules-detect-server-smoke</module>
-        <module>vehicle-modules-detect-server-staff</module>
     </modules>
     <dependencies>
         <!-- mybatis plus 代码生成器 -->
@@ -32,23 +30,23 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-        <!-- SpringCloud Ailibaba Nacos -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
-        </dependency>
+<!--        &lt;!&ndash; SpringCloud Ailibaba Nacos &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+<!--        </dependency>-->
 
-        <!-- SpringCloud Ailibaba Nacos Config-->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-        </dependency>
+<!--        &lt;!&ndash; SpringCloud Ailibaba Nacos Config&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+<!--        </dependency>-->
 
-        <!-- SpringCloud Ailibaba Sentinel -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
+<!--        &lt;!&ndash; SpringCloud Ailibaba Sentinel &ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>-->
+<!--        </dependency>-->
 
         <!-- Mysql Connector Java-->
         <dependency>
@@ -98,11 +96,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.fibikky</groupId>
-            <artifactId>vehicle-common-redis</artifactId>
-            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>com.fibikky</groupId>

@@ -9,6 +9,19 @@
         <option value="$PROJECT_DIR$/vehicle-modules/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/vehicle-common/vehicle-common-io/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-common/vehicle-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-common/vehicle-common-web/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-smoke/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-staff/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-api/pom.xml" />
+        <option value="$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-main/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="15" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

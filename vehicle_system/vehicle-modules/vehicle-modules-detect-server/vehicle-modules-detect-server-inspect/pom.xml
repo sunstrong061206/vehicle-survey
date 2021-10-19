@@ -11,10 +11,5 @@
 
     <artifactId>vehicle-modules-detect-server-inspect</artifactId>
     <dependencies>
-        <dependency>
-            <groupId>com.fibikky</groupId>
-            <artifactId>vehicle-common-io</artifactId>
-            <version>0.0.1</version>
-        </dependency>
     </dependencies>
 </project>

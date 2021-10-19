@@ -12,9 +12,6 @@
     <artifactId>vehicle-common</artifactId>
     <modules>
         <module>vehicle-common-network</module>
-        <module>vehicle-common-web</module>
         <module>vehicle-common-core</module>
-        <module>vehicle-common-redis</module>
-        <module>vehicle-common-io</module>
     </modules>
 </project>

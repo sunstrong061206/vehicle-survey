@@ -11,8 +11,6 @@
     <packaging>pom</packaging>
     <artifactId>vehicle-modules</artifactId>
     <modules>
-        <module>vehicle-modules-example</module>
-        <module>vehicle-modules-web</module>
         <module>vehicle-modules-detect-server</module>
     </modules>
     <dependencies>

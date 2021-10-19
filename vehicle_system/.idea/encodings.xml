@@ -4,24 +4,9 @@
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-common/vehicle-common-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-common/vehicle-common-io/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-common/vehicle-common-network/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-common/vehicle-common-redis/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-common/vehicle-common-web/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-inspect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-inspect/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-smoke/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-detect-server/vehicle-modules-detect-server-staff/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-consumer/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-consumer/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-model-server/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-provider/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-provider/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-example/vehicle-modules-example-websocket/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-main/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vehicle-modules/vehicle-modules-web/vehicle-modules-web-main/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-survey/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vehicle-survey/src/main/resources" charset="UTF-8" />
   </component>

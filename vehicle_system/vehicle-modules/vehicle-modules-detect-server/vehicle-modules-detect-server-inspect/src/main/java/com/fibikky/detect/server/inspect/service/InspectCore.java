@@ -7,7 +7,6 @@ import com.fibikky.detect.server.inspect.main.service.IExceptionService;
 import com.fibikky.detect.server.inspect.main.service.IProcessingService;
 import com.fibikky.detect.server.inspect.models.Frame;
 import com.fibikky.detect.server.inspect.service.inspectContext.CombinedFrame;
-import com.fibikky.vehicle.io.FileIOService;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -29,7 +28,6 @@ public class InspectCore {
 
 
     final ServerStorageConfig serverStorageConfig;
-    final FileIOService fileIOService=new FileIOService();
     final IExceptionService exceptionService;
     final IProcessingService processingService;
 
@@ -80,7 +78,6 @@ public class InspectCore {
      */
     private void marshalBaseInfo(Frame frame, String exType) {
         String path = serverStorageConfig.getB64ImgStoragePath() + UUID.randomUUID().toString();
-        fileIOService.saveImg(frame.img, path);
         var ex = new Exception(frame.vehicleNumber, new Date(), exType, path, frame.line, frame.station, frame.monitor, 0);
         var pro = new Processing(ex.getExceptionId(),frame.vehicleNumber,0);
         exceptionService.getBaseMapper().insert(ex);

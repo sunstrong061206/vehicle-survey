@@ -7,7 +7,6 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * @author Aminor_z
  */
-@EnableDiscoveryClient
 @SpringBootApplication
 public class InspectDetectServerApplication {
     public static void main(String[] args) {
