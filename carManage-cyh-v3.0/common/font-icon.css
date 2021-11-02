@@ -1,0 +1,48 @@
+@font-face {
+    font-family: uniicons;
+    font-weight: normal;
+    font-style: normal;
+    src:url('~@/static/font/iconfont.ttf') format('truetype'); 
+}
+
+.icon {
+    color: #999;
+    font-family: uniicons;
+    font-size: 42upx;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon.uni-active {
+    color: #1ca6ec;
+}
+
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-index:before {
+  content: "\e60f";
+}
+
+.icon-wode:before {
+  content: "\e61b";
+}
+
+.icon-wode-copy:before {
+  content: "\e61d";
+}
+
+.icon-index-copy:before {
+  content: "\e622";
+}
+
