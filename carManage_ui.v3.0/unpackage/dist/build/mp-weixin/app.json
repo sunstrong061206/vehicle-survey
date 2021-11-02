@@ -1,0 +1,110 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/authentication/authentication",
+    "pages/login/login",
+    "pages/vet/index/index",
+    "pages/manage/index/index",
+    "pages/survey/index/index",
+    "pages/common/userinfo/userinfo",
+    "pages/common/userdetail/userdetail",
+    "pages/common/help/help",
+    "pages/common/about/about"
+  ],
+  "subPackages": [
+    {
+      "root": "vetPages",
+      "pages": [
+        "examine/examine",
+        "examine/examDone/examDone",
+        "examine/examToDo/examToDo",
+        "carReport/carReport",
+        "carManagement/carManagement",
+        "message/message",
+        "violationsRecord/violationsRecord",
+        "fixRecord/fixRecord",
+        "fixRecord/fixDetail/fixDetail",
+        "protectRecord/protectRecord"
+      ]
+    },
+    {
+      "root": "managePages",
+      "pages": [
+        "maintain/maintain",
+        "carManagement/carManagement",
+        "carReport/carReport",
+        "carReport/carDetail/carDetail",
+        "declare/declare",
+        "declare/fixDeclare/fixDeclare",
+        "declare/protectDeclare/protectDeclare",
+        "declare/sendCarDeclare/sendCarDeclare",
+        "declareRecord/declareRecord",
+        "examine/examDone/examDone",
+        "examine/examToDo/examToDo",
+        "examine/examine",
+        "fine/fine",
+        "fixRecord/fixRecord",
+        "fixRecord/fixDetail/fixDetail",
+        "lend/lend",
+        "lend/lendCar/lendCar",
+        "lend/returnCar/returnCar",
+        "lend/lendDeclare/lendDeclare",
+        "lend/returnDeclare/returnDeclare",
+        "message/message",
+        "protectRecord/protectRecord",
+        "violationsRecord/violationsRecord"
+      ]
+    },
+    {
+      "root": "surveyPages",
+      "pages": [
+        "declare/declare"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/vet/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/manage/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/survey/index/index",
+        "text": "index"
+      },
+      {
+        "pagePath": "pages/common/userinfo/userinfo",
+        "text": "userinfo"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pages/survey/index/index": {
+      "network": "all",
+      "packages": [
+        "surveyPages"
+      ]
+    }
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "usingComponents": {
+    "tab-bar": "/pages/common/tabBar"
+  }
+}

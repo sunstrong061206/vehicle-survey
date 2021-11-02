@@ -1,0 +1,1 @@
+.bg-gray{background-color:rgba(112,170,214,.8)}.word{text-indent:40rpx;margin-top:25rpx}.card{background-color:hsla(0,0%,91.4%,.8);border-radius:8rpx;margin:20rpx 0;position:relative;box-shadow:0 2rpx 4rpx rgba(0,0,0,.3);height:100rpx}.top{background-color:hsla(0,0%,100%,.5);height:380rpx}.img{position:relative;left:50%;-webkit-transform:translate(-50%);transform:translate(-50%)}
