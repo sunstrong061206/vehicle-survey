@@ -23,9 +23,8 @@ import java.util.Map;
 @WebServlet(name = "pickVehicle", value = "/api/add/pickVehicle")
 public class PickVehicle extends HttpServlet {
     // 设置文件夹
-    //private static final String folderPath = "/home/sunstrong/图片/vehicle_img/";
-    private static final String folderPath = "/home/picture/vehicle_img/";
-//    private static final String folderPath = "F:/picture/vehicle_img/";
+    private static final String folderPath = "/home/picture/vehicle_survey/Vehicle_img/";
+//    private static final String folderPath = "F:/picture/Vehicle_img/";
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

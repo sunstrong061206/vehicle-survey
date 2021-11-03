@@ -21,8 +21,8 @@ import java.util.Map;
 
 @WebServlet(name = "ReportLend", value = "/api/add/report/lend")
 public class LendAddServlet extends HttpServlet {
-    //    private static final String Drivecard_folderPath = "/home/picture/Drivecard_img/";
-    private static final String Drivecard_folderPath = "F:/picture/Drivecard_img/";
+        private static final String Drivecard_folderPath = "/home/picture/vehicle_survey/Drivecard_img/";
+//    private static final String Drivecard_folderPath = "F:/picture/Drivecard_img/";
 
 
     @Override

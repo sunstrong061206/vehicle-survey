@@ -4,6 +4,5 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/vehicle_survey
     username: root
-    password: cyh20021112
-#    password: ssz061206...
+    password: ssz061206...
     driver-class-name: com.mysql.cj.jdbc.Driver

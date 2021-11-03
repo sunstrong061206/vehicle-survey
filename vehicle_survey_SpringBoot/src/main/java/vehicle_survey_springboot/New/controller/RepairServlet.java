@@ -21,8 +21,8 @@ import java.util.Map;
 
 @WebServlet(name = "ReportRepair", value = "/api/add/report/repair")
 public class RepairServlet extends HttpServlet {
-    private static final String folderPath = "/home/picture/Repair_vehicle/";
-//    private static final String folderPath = "F:/picture/repair_vehicle/";
+    private static final String folderPath = "/home/picture/vehicle_survey/RepairVehicle_img/";
+//    private static final String folderPath = "F:/picture/repairVehicle_img/";
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doPost(request, response);

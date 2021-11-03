@@ -27,7 +27,7 @@ import java.util.Map;
 @WebServlet(name = "InvestigationServlet", value = "/api/add/investigation")
 public class InvestigationServlet extends HttpServlet {
 
-    private static final String Investigation_folderPath = "/home/picture/Investigate_img/";
+    private static final String Investigation_folderPath = "/home/picture/vehicle_survey/Investigate_img/";
 //    private static final String Investigation_folderPath = "F:/picture/Investigate_img/";
 
 
